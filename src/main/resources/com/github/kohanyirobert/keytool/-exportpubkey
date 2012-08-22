@@ -1,0 +1,20 @@
+keytool -exportpubkey [OPTION]...
+
+Exports public key
+
+Options:
+
+ -rfc                            output in RFC style
+ -alias <alias>                  alias name of the entry to process
+ -file <filename>                output file name
+ -keystore <keystore>            keystore name
+ -storepass <arg>                keystore password
+ -storetype <storetype>          keystore type
+ -providername <providername>    provider name
+ -providerclass <providerclass>  provider class name
+ -providerarg <arg>              provider argument
+ -providerpath <pathlist>        provider classpath
+ -v                              verbose output
+ -protected                      password through protected mechanism
+ 
+Use "keytool -help" for all available commands
